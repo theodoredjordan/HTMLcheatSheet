@@ -1,0 +1,20 @@
+
+table td{
+    border: 2px solid #8c6b48;
+
+}
+
+.title {
+    background-color:orange;
+    font-weight: bold;
+}
+
+h1 {
+    background-image: url(img/pattern.png);
+    color: white;
+    font-weight: bold;
+    font-size: xxx-large;
+    
+
+
+}

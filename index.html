@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+       <title>HTML Cheatsheet</title>
+       <link rel="stylesheet" type="text/css" href="styles.css">
+   </head>
+       <header><h1>HTML Cheatsheet</h1></header>
+       <h2>Helpful Links</h2>
+       <li><a href="https://dev.w3.org/html5/html-author/charref" Target=" _blank">Symbols</a></li>
+       <li><a href="https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-web-development-fundamentals/modules/fecp-learn-html-elements/cheatsheet" Target=" _blank">Codcademy Cheat Sheets</a></li>
+       <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML" Target=" _blank">MDN Web Docs</a></li>
+       <br />
+       </ul>
+
+       <body>
+           <div>
+               <table id="listElements" > 
+                <tr>   
+                     <td class="title" scope="col" colspan=3>List Elements</td>                     
+               </tr>
+                   <tr>
+                       <td>  &emsp;      </td>
+                       <td>Ordered list(numbered)</td>
+                       <td>&lt;ol&gt;  &lt;/ol&gt; </td>
+                   </tr>
+                   <tr>
+                       <td></td>
+                       <td>Unordered List(bullet points</td>
+                       <td>&lt;ul&gt;  &lt;/ul&gt;</td>
+                   </tr>
+                   <tr>
+                       <td></td>
+                       <td>Item of List(in both ol and ul</td>
+                       <td>&lt;lt&gt;  &lt;/li&gt;</td>
+                   </tr>
+                   <tr>
+                       <td></td>
+                       <td>Definition Lists</td>
+                       <td>
+                           <table id="DefinitionLists" >
+                           <tr>
+                              <td>Declare Def List</td>
+                              <td>&lt;dl&gt;  &lt;/dl&gt;</td>
+                           </tr>
+                       <tr>
+                           <td>Def Term</td>
+                           <td>&lt;dt&gt;  &lt;/dt&gt;</td>
+                       </tr>
+                       <tr>
+                           <td>Actual Definition</td>
+                           <td>&lt;dd&gt;  &lt;/dd&gt;</td>
+                       </tr>
+                       </table>
+                       </td> 
+               </table>
+           </div>
+           <br />
+           <div>
+               <table id="GenericElements">
+                <tr>   
+                    <td class="title" scope="col" colspan=3>Generic Elements (begin and end with &lt; &gt;)</td>                     
+              </tr>
+
+                  <tr>
+                      <td>&emsp;  </td>
+                      <td>Declare HTML 5</td>
+                      <td>&lt;!DOCTYPE html&gt;</td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td>Declare html</td>
+                      <td>&lt;html&gt;  &lt;/html&gt;</td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td>Info About The Page</td>
+                      <td>
+                          <table id="DefinitionLists" >
+                             <tr>&lt;head&gt; &lt;/head&gt;</tr>    
+                             <tr>
+                                <td>Title in Tab of Browser</td>
+                                <td>&lt;title&gt;  &lt;/title&gt;</td>
+                             </tr>
+                             <tr>
+                                <td>Declare Links to Style Sheet</td>
+                                <td>&lt;link rel="stylesheet" type="text/css" href="styles.css"&gt;  </td>
+                             </tr>
+                             <tr>
+                                <td>Actual Definition</td>
+                                <td>&lt;dd&gt;  &lt;/dd&gt;</td>
+                             </tr>
+                           </table>
+                    <tr>
+                        <td></td>
+                        <td>Main Contect Displayed on Page</td>
+                        <td>&lt;body&gt;  &lt;/body&gt;</td>
+                    </tr>                            
+                    <tr>
+                        <td>&emsp;  </td>
+                        <td>Comments</td>
+                        <td>&lt;!-- --&gt;</td>
+                    </tr>
+               </table>
+            </div>
+            <br />
+            <div>   
+               <table id="GenericAttributes" > 
+                <tr>   
+                     <td class="title" scope="col" colspan=3>Generic Attributes</td>                     
+               </tr>
+                   <tr>
+                       <td>  &emsp;      </td>
+                       <td>ID Attribute <br />Allows you to style a single<br /> element differently than all<br /> other &lt;p&gt; elements in the<br /> page.</td>
+                       <td>&lt;p id=”text”>Verbiage for website&gt; &lt;p&gt;  </td>
+                   </tr>
+                   <tr>
+                       <td></td>
+                       <td>Class attribute-
+                        Allows you to style several elements in a similar format
+                        </td>
+                       <td>&lt;p id=”important”&gt; Verbiage for website &lt;/p&gt;&lt;h1 id=”important”&gt;Heading&lt;h1&gt;</td>
+                    </tr>
+                    <tr>
+                       <td></td>
+                       <td>Block elements<br />-distinguishes everything in the block from the other elements </td>
+                       <td>&lt;h1&gt;,  &lt;p &gt;, &lt;ul&gt;,  &lt;li&gt;
+
+                       </td>
+                    </tr>  
+                    <tr>
+                        <td></td>
+                        <td>Inline elements
+                            -only impacts the portion of the block that is impacted
+                            </td>
+                            <td>&lt;em&gt;,  &lt;a &gt;, &lt;b&gt;,  &lt;img&gt;
+
+                            </td>
+                     </tr>  
+                     <tr>
+                        <td></td>
+                        <td>Grouping Text and Elements in a Block</td>
+                        <td>&lt;div&gt;  &lt;/div&gt;</td>
+                     </tr>  
+                     <tr>
+                        <td></td>
+                        <td>Grouping Text & Elements Inline</td>
+                        <td>&lt;span&gt;  &lt;/span&gt;</td>
+                     </tr>  
+                     <tr>
+                        <td></td>
+                        <td>IFRAMES</td>
+                        <td>&lt;iframe
+                            Width=”450”
+                            Hight=”350”
+                             Src= http://maps.google.com
+                         &gt;  &lt;/iframe&gt;</td>
+                     </tr>  
+ 
+                </table>   
+            </div>
+
+            <br />
+
+            <div>   
+               <table id="FormattingText" > 
+                <tr>   
+                     <td class="title" scope="col" colspan=3>Formatting Text (elements)</td>                     
+               </tr>
+                   <tr>
+                       <td>  &emsp;      </td>
+                       <td>Headers</td>
+                       <td>
+                        <table id="headersSubTable">
+                            <tr>
+                                <td>Main Heading</td>
+                                <td>&lt;h1&gt;  &lt;/h1&gt;</td>
+                            </tr>
+                            <tr>
+                                <td>Level 2 Heading</td>
+                                <td>&lt;h2&gt;  &lt;/h2&gt;</td>
+                            </tr>
+                            <tr>
+                                <td>Level 3 Heading</td>
+                                <td>&lt;h3&gt;  &lt;/h3&gt;</td>
+                            </tr>
+                            <tr>
+                                <td>Level 4 Heading</td>
+                                <td>&lt;h4&gt;  &lt;/h4&gt;</td>
+                            </tr>
+                            <tr>
+                                <td>Level 5 Heading</td>
+                                <td>&lt;h5&gt;  &lt;/h5&gt;</td>
+                            </tr>
+                            <tr>
+                                <td>Level 6 Heading</td>
+                                <td>&lt;h6&gt;  &lt;/h6&gt;</td>
+                            </tr>
+                        </table>
+                        </td>
+                   </tr>
+                   <tr>
+                       <td>  </td>
+                       <td> Paragraphs </td>
+                       <td>&lt;p&gt;  &lt;/p&gt;</td>
+                    </tr>
+                    <tr>
+                       <td></td>
+                       <td>Bold</td>
+                       <td>&lt;b&gt;  &lt;/b&gt;</td>
+                    </tr>  
+                    <tr>
+                        <td></td>
+                        <td>Italicized</td>
+                        <td>&lt;i&gt;  &lt;/i&gt;</td>
+                     </tr>  
+                     <tr>
+                        <td></td>
+                        <td>Superscript Subscript</td>
+                        <td>&lt;sup&gt;  &lt;/sup&gt;  &lt;sub&gt;  &lt;/sub&gt;</td>
+                     </tr>  
+                     <tr>
+                        <td></td>
+                        <td>Line Break</td>
+                        <td>&lt;br  /&gt;  </td>
+                     </tr>  
+                     <tr>
+                        <td></td>
+                        <td>Horizontal Rule</td>
+                        <td>&lt;hr  /&gt;  </td>
+                     </tr>  
+                     <tr>
+                        <td>  &emsp;      </td>
+                        <td>Semantic Markup</td>
+                        <td>
+                         <table id="semanticmarkupSubTable">
+                             <tr>
+                                 <td>Strong Bold</td>
+                                 <td>&lt;strong&gt;  &lt;/strong&gt;</td>
+                             </tr>
+                             <tr>
+                                 <td>Emphasis/Italics</td>
+                                 <td>&lt;em&gt;  &lt;/em&gt;</td>
+                             </tr>
+                             <tr>
+                                 <td>Long Quotes</td>
+                                 <td>&lt;blockquote&gt;  &lt;/blockquote&gt;</td>
+                             </tr>
+                             <tr>
+                                 <td>Short Quotes</td>
+                                 <td>&lt;q&gt;  &lt;/q&gt;</td>
+                             </tr>
+                             <tr>
+                                 <td>Author Contact</td>
+                                 <td>&lt;address&gt;  &lt;/address&gt;</td>
+                             </tr>
+ 
+                         </table>
+                         </td>
+                    </tr>
+                </table>   
+            </div>
+
+            <br />
+
+            <div>   
+               <table id="AttributesTiedToLinks" > 
+                <tr>   
+                     <td class="title" scope="col" colspan=3>Attributes Tied To Links</td>                     
+               </tr>
+                   <tr>
+                       <td>  &emsp;      </td>
+                       <td>Reference Email</td>
+                       <td>&lt;p&gt;  &lt;/a href=mailto:homer@example.org&gt; homer@example.org  &lt;/a&gt;  &lt;/p&gt;</td>
+                   </tr>
+                   <tr>
+                       <td>  </td>
+                       <td> href </td>
+                       <td>Attribute used to create links</td>
+                    </tr>
+                    <tr>
+                       <td></td>
+                       <td>Link to new page</td>
+                       <td>Target="_blank"</td>
+                    </tr>  
+                    <tr>
+                        <td></td>
+                        <td>Relative Link</td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>&lt;a href="index.html"&gt;  use when the link is in the same folder </td>
+                                </tr>
+                                <tr>
+                                    <td>&lt;a href="music/listings.html"&gt;  use when the link is in the child folder </td>
+                                </tr>
+                                <tr>
+                                    <td>&lt;a href="../,,/index.html"&gt;  use when the link is in the grandparent folder </td>
+                                </tr>
+                            </table>
+                        </td>
+                     </tr>  
+                     <tr>
+                        <td></td>
+                        <td>Absolute Link</td>
+                        <td>&lt;a href=http://www.empireonline.com&gt;</td>
+                     </tr>  
+                     <tr>
+                        <td></td>
+                        <td>Link inside a page</td>
+                        <td>&lt;h1 id=”top”&gt; Film Making Terms &lt;/h1&gt; <br />&lt;p&gt;  &lt;a href=”#top”&gt;Top&lt;/a&gt; &lt;/p&gt; </td>
+                     </tr>  
+
+ 
+                </table>   
+            </div>     
+            
+            <br />
+
+            <div>   
+               <table id="AttributesTiedTpOmages" > 
+                <tr>   
+                     <td class="title" scope="col" colspan=3>Attributes Tied to Images</td>                     
+               </tr>
+                   <tr>
+                       <td>  &emsp;      </td>
+                       <td>Image</td>
+                       <td>&lt;img /&gt;</td>
+                   </tr>
+                   <tr>
+                       <td>  </td>
+                       <td> Source of Image </td>
+                       <td>src=”images/quokka.jpg”</td>
+                    </tr>
+                    <tr>
+                       <td></td>
+                       <td>Text description of image</td>
+                       <td>alt=”A family of quokka”</td>
+                    </tr>  
+                    <tr>
+                        <td></td>
+                        <td>Title of image (tooltip)</td>
+                        <td>title=”The quokka is an Australian marsupial…”</td>
+                     </tr>  
+                     <tr>
+                        <td></td>
+                        <td>Width in px</td>
+                        <td>width = "600"</td>
+                     </tr>  
+                     <tr>
+                        <td></td>
+                        <td>Height in px</td>
+                        <td>height = "450"</td>
+                     </tr>  
+                     <tr>
+                        <td></td>
+                        <td>Figure & Figure Caption</td>
+                        <td>&lt;figure&gt; <br />
+                            &lt;img src=”images/otters.jpg”    alt=”Photo of 2 otters” /&gt; <br />
+                            &lt;figcaption&gt;Sea otters hold hands…&lt;/figcaption&gt; <br />
+                          &lt;/figure&gt;
+                          </td>
+                     </tr>  
+ 
+                </table>   
+            </div>           
+
+            <br />
+
+            <div>   
+               <table id="ListElements" > 
+                <tr>   
+                     <td class="title" scope="col" colspan=3>List Elements</td>                     
+               </tr>
+                   <tr>
+                       <td>  &emsp;      </td>
+                       <td>Ordered List (numbered)</td>
+                       <td>&lt;ol&gt;  &lt;/ol&gt;</td>
+                   </tr>
+                   <tr>
+                       <td>  </td>
+                       <td> Unordered List (bullet points</td>
+                       <td>&lt;ul&gt;  &lt;/ul&gt;</td>
+                    </tr>
+                    <tr>
+                       <td></td>
+                       <td>Item of List (in both ol and ul)</td>
+                       <td>&lt;li&gt;  &lt;/li&gt;</td>
+                    </tr>  
+                    <tr>
+                        <td></td>
+                        <td rowspan=3>Definition Lists</td>
+                        <td>
+                        <table>
+                            <tr>
+                                <td>Declare Definition List</td>
+                                <td>&lt;dl&gt;  &lt;/dl&gt;</td>
+                            </tr>
+                            <tr>
+                                <td>Definition Term</td>
+                                <td>&lt;dt&gt;  &lt;/dt&gt;</td>
+                            </tr>
+                            <tr>
+                                <td>Actual Definition</td>
+                                <td>&lt;dd&gt;  &lt;/dd&gt;</td>
+                            </tr>
+
+                        </table>
+                        </td>
+                     </tr>  
+                       
+ 
+                </table>   
+            </div>           
+
+            <br />
+
+            <div>   
+               <table id="Tables" > 
+                <tr>   
+                     <td class="title" scope="col" colspan=3>Tables</td>                     
+               </tr>
+                   <tr>
+                       <td>  &emsp;      </td>
+                       <td>Declare Table Element</td>
+                       <td>&lt;table&gt;  &lt;/table&gt;</td>
+                   </tr>
+                   <tr>
+                       <td>  &emsp;      </td>
+                       <td>Table Row</td>
+                       <td>&lt;tr&gt;  &lt;/tr&gt;</td>
+                   </tr>                  
+                   <tr>
+                       <td></td>
+                       <td rowspan=1>Table Header</td>
+                       <td>
+                       <table>
+                           <tr>
+                               <td>Generic Empty</td>
+                               <td>&lt;th&gt;  &lt;/th&gt;</td>
+                           </tr>
+                           <tr>
+                               <td>Column Heading</td>
+                               <td>&lt;th scope="col"&gt;  &lt;/th&gt;</td>
+                           </tr>
+                           <tr>
+                               <td>Row Heading</td>
+                               <td>&lt;th scope="row"&gt;  &lt;/th&gt;</td>
+                           </tr>
+                        </table>
+                        </td>
+                    </tr>  
+                    <tr>
+                       <td></td>
+                       <td>Table Detail</td>
+                       <td>&lt;td&gt;  &lt;/td&gt;</td>
+                    </tr>  
+                    <tr>
+                        <td></td>
+                        <td>Column Span Attribute</td>
+                        <td>&lt;td colspan=”2”&gt; Geography &lt;/td&gt;</td>
+                     </tr>  
+                     <tr>
+                        <td></td>
+                        <td>Row Span Attribute</td>
+                        <td>&lt;td rowspan=”2”>&gt; Movie &lt;/td&gt;</td>
+                     </tr>  
+                     <tr>
+                        <td></td>
+                        <td>Semantic Table Elements
+                            (Help keep structure for long tables) <br />
+                            within &lt;table&gt;  &lt;/table&gt;
+                            </td>
+                        <td>
+                            &lt;thead&gt;  &lt;/thead&gt; used for titles <br />
+                            &lt;tbody&gt;  &lt;/tbody&gt; used for content <br />
+                            &lt;tfoot&gt;  &lt;/tfoot&gt; used for summary data <br />
+                        </td>
+                     </tr>  
+ 
+                </table>   
+            </div>           
+
+
+            <br />
+
+            <div>   
+               <table id="Whitespace" > 
+                <tr>   
+                     <td class="title" scope="col" colspan=3>Whitespace</td>                     
+               </tr>
+                   <tr>
+                       <td>  &emsp;      </td>
+                       <td>Line Break (empty line)</td>
+                       <td>  &lt;br /&gt;</td>
+                   </tr>
+                   <tr>
+                       <td>  </td>
+                       <td> Horizontal Line Break </td>
+                       <td>&lt;hr /&gt;</td>
+                    </tr>
+                     
+ 
+                </table>   
+            </div>           
+       </body>
+
+
+
+
+
+
+
+
+
+
+</html>
